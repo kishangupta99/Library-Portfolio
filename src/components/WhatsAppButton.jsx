@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const WhatsAppButton = () => {
   // Replace with the owner's WhatsApp number
-  const phoneNumber = '911234567890'; 
+  const phoneNumber = '9118806156'; 
   const message = "Hello! I'm interested in Self Study Hall.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
@@ -22,5 +22,6 @@ const WhatsAppButton = () => {
     </motion.a>
   );
 };
+
 
 export default WhatsAppButton;
